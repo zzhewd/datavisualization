@@ -113,8 +113,6 @@ export default {
                 if(this.pchartType === 'pie' && this.pdefiniteChartType === 'areaPie')this.colorList = this.areaPieColor
                 if(this.pchartType === 'pie' && this.pdefiniteChartType === 'circlePie')this.colorList = this.areaPieColor
                 this.$emit('changeColor', this.colorList)
-                this.singleLineColor = []
-                this.singleLineColor = this.copysingleLineColor
             }
         }
     },
