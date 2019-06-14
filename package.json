@@ -1,0 +1,61 @@
+{
+    "name": "datavisualization",
+    "author": "Created by zhangzhe<544785380@qq.com> on 2019/6/5",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "cross-env NODE_ENV=production vue-cli-service build",
+        "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+        "awe-dnd": "^0.3.4",
+        "core-js": "^2.6.5",
+        "echarts": "^4.2.1",
+        "echarts-gl": "^1.1.1",
+        "element-ui": "^2.8.2",
+        "mockjs": "^1.0.1-beta3",
+        "qs": "^6.7.0",
+        "sortablejs": "^1.9.0",
+        "vue": "^2.6.10",
+        "vue-router": "^3.0.3",
+        "vuedraggable": "^2.21.0",
+        "vuex": "^3.0.1"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^3.8.0",
+        "@vue/cli-plugin-eslint": "^3.8.0",
+        "@vue/cli-service": "^3.8.0",
+        "@vue/eslint-config-prettier": "^4.0.1",
+        "babel-eslint": "^10.0.1",
+        "cross-env": "^5.2.0",
+        "eslint": "^5.16.0",
+        "eslint-plugin-vue": "^5.0.0",
+        "node-sass": "^4.9.0",
+        "sass-loader": "^7.1.0",
+        "vue-template-compiler": "^2.6.10"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/essential",
+            "@vue/prettier"
+        ],
+        "rules": {},
+        "parserOptions": {
+            "parser": "babel-eslint"
+        }
+    },
+    "postcss": {
+        "plugins": {
+            "autoprefixer": {}
+        }
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions"
+    ]
+}
