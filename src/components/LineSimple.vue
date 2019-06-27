@@ -10,7 +10,7 @@
       <div class="charShow"></div>
     </div>
   </draggable>
-  <editChart ref='editChartRf' v-on:editChart="editChartInfo"></editChart>
+  <editChart ref='editChartRf'></editChart>
 </div>
 </template>
 <script>
@@ -88,14 +88,6 @@ export default {
       this.$nextTick(() => {
         this.$refs.editChartRf.editdialog(true)
       })
-    },
-    editChartInfo(data){
-        this.addChartInfo = true
-        for (var i = 0; i < data.length; i++) {
-          this.sortArr.push(data[i])
-        }
-        this.chartView()
-      console.log(this.sortArr)
     },
     removeChart(index) {
       var clickChart = this.getParentInfo[index]

@@ -38,6 +38,9 @@ export default {
       selectchart(data){
         this.addEcharts = []
         this.addEcharts.push(data)
+        this.$nextTick(()=>{
+          this.addEcharts = []
+        })
       },
       compileBtnFunc(){
         this.$refs.lineChartsFunc.parentInfo(false)

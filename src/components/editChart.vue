@@ -47,7 +47,6 @@ export default {
       affirmEdit(){
         this.editchartDialog = false
         this.editChartinfo.charItem.chartTit = this.editChartinfo.charTit
-        this.$emit('editChart',this.editChartinfo)
       }
     },
     components: {
