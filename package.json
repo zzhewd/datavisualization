@@ -16,7 +16,7 @@
     "echarts-gl": "^1.1.1",
     "element-ui": "^2.8.2",
     "mockjs": "^1.0.1-beta3",
-    "qs": "^6.7.0",
+    "qs": "^6.5.3",
     "sortablejs": "^1.9.0",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
